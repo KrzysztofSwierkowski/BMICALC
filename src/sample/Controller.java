@@ -40,6 +40,17 @@ public class Controller {
 
     }
 
+    public void eraseButton (ActionEvent e) {
+
+        BMI.setText ( "" );
+        mass.setText("");
+        height.setText("");
+        index.setText("");
+
+
+
+    }
+
 
 
 }
